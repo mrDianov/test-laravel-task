@@ -13,4 +13,4 @@ Artisan::command('joker', function () {
             $haveJoke = true;
         }
     }
-})->purpose('save joke from API')->everyFiveSeconds();
+})->purpose('save joke from API')->everyFiveMinutes();
